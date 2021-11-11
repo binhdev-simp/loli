@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./all.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Con Loli 2D</title>
+    <style>
+        span{
+            font-size: 50px;
+        }
+        .boobs #bb{
+            position: absolute;
+            margin-left: 5px;
+            cursor: pointer;
+            top: 376px;
+            transition: 1s;
+        }
+        .cuz #lz{
+            cursor: pointer;
+            position: absolute;
+            top:820px;
+            left: 320px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <img src="./hub.jpg" alt="" title="body">
+    </div>
+    <div class="boobs">
+        <img src="./tay.jpg" alt="" title="tay">
+        <img src="./boobs.jpg" alt="" title="boobs" width="335px" height="169px" id="bb">
+    </div>
+    <div class="cuz">
+        <img src="./bot.jpg" alt="" title="leg">
+        <img src="./lz.jpg" alt="" title="Lon" width="184px" height="101px" id="lz">
+    </div>
+
+    <script type="text/javascript">
+        const bb = document.getElementById("bb");
+        const loz = document.getElementById("lz");
+        const ll = new Audio("./loli.mp3");
+        const lz = new Audio("./lz.mp3")
+        bb.addEventListener('click',()=>{
+            bb.style.top="350px";
+            ll.play()
+            setTimeout(()=>{
+                bb.style.top="376px"
+            },1000);
+        });
+
+        loz.addEventListener("click", ()=>{
+            lz.play();
+        })
+        bb.addEventListener('mousemove',()=>{
+            bb.style.width="400px";
+            bb.style.height="201.11px";
+            setTimeout(()=>{
+                bb.style.width="335px";
+                bb.style.height="169px";
+            },2000);
+        })
+    </script>
+</body>
+</html>
